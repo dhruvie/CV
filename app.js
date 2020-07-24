@@ -29,6 +29,10 @@ app.get("/contact",function(req,res){
   res.render("contact");
 });
 
+app.post("/contact",function(req,res){
+    res.redirect("contact");
+});
+
 app.listen(process.env.PORT || 3000,function(){
   console.log("Server is Running on Port 3000");
 });
