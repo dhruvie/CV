@@ -172,11 +172,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.About-me , .div_contact{
-  margin-top: 200px;
-  margin-bottom: 100px;
-  margin-right: 100px;
-  margin-left: 100px;
+.About-me , .div_contact, #resume{
+  margin-top: 100px;
+  margin-bottom: 5%;
+  margin-right: 5%;
+  margin-left: 4%;
 }
 
 .About-me,.div_contact, p,li,h4{
@@ -272,7 +272,6 @@ h1, h2, h3, h4, h5, h6 {
 # Resume
 --------------------------------------------------------------*/
 #resume{
-  margin: 100px;
   padding: 30px;
   opacity: 0.9;
 }
